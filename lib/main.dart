@@ -504,7 +504,6 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
             ),
           ),
         ],
-
       ),
       bottomNavigationBar: BottomNavigationBar(
         selectedItemColor: Colors.black,
