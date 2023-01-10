@@ -78,6 +78,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
       vsync: this,
       duration: const Duration(milliseconds: 2000),
     );
+
     super.initState();
   }
 
@@ -504,7 +505,6 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
             ),
           ),
         ],
-
       ),
       bottomNavigationBar: BottomNavigationBar(
         selectedItemColor: Colors.black,
