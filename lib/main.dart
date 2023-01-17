@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:devlopment_app/common_widget/common_button.dart';
+import 'package:devlopment_app/screens/model_calling_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -19,9 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.teal,
         // fontFamily: "Sevillana",
       ),
-      home: const MyHomePage(
-        title: 'Flutter Demo Home Page',
-      ),
+      home: const ModelCallingScreen(),
     );
   }
 }
