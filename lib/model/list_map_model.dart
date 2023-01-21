@@ -30,20 +30,21 @@ class ListMapModel {
   factory ListMapModel.fromJson(Map<String, dynamic> json) {
     return ListMapModel(
       id: json['id'],
+
+      ///
       name: json['name'],
       status: json['status'],
       species: json['species'],
       type: json['type'],
       gender: json['gender'],
-      origin:OriginAndLocationModel.fromJson(json['origin']) ,
-      location:OriginAndLocationModel.fromJson(json['location']) ,
+      origin: OriginAndLocationModel.fromJson(json['origin']),
+      location: OriginAndLocationModel.fromJson(json['location']),
       image: json['image'],
       episode: json['episode'],
       url: json['url'],
       created: json['created'],
     );
   }
-
 }
 
 class OriginAndLocationModel {
